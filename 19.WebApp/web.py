@@ -1,7 +1,6 @@
 import streamlit as st
 import functions
 
-
 todos = functions.read_todo()
 
 def add_todo():
